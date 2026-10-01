@@ -1,14 +1,14 @@
 FILE_NAME = "sales_log.txt"
 
 def display_menu():
-    print("\n ============================================ ")
-    print("\n        SALES RECORD MANAGEMENT SYSTEM        ")
-    print("\n ============================================ ")
+    print("\n============================================ ")
+    print("          SALES RECORD MANAGEMENT SYSTEM        ")
+    print("============================================= ")
     print("1.  Add Sale Record")
     print("2.  View All Records & Summary  Statistics")
     print("3.  Clear All Sales Data")
     print("4.  Exit System")
-    print("\n ============================================ ")
+    print("============================================= ")
 
 def add_sale_record():
     print("\n Add Sale Record ")
@@ -36,7 +36,7 @@ def add_sale_record():
                 f"{total_amount:.2f}\n"
             )
 
-    print("Sale record saved successfully")
+        print("Sale record saved successfully")
 
     except OSError:
         print("Error.")
